@@ -1,0 +1,4 @@
+sudo az login
+sudo az acr login --name <nameOfACR>
+sudo docker tag <imagename> <ACRURL>/<ImageNAme>
+sudo docker push <ACRURL>/<ImageNAme>
