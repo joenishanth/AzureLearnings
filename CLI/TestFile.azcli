@@ -1,0 +1,1 @@
+az vm create --resource-group newgrp1 --name demovm1 --image Win2016Datacenter --admin-username demouser --admin-password AzurePortal@123
