@@ -1,0 +1,1 @@
+sudo az acr build --image appnew:layest --registry appregistry1000 --file Dockerfile

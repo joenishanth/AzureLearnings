@@ -1,0 +1,10 @@
+# Dockerfile is added to the root directory of the application
+
+# this is done in the local directory - this is dotnet binary
+dotnet publish 
+
+# copy thr published artifact from local machine on to the LinuxVM using using a simple FTP/SFTP utility: WinSCP
+# Use the dotner binary and Dockerfile to build the Docker image
+
+sudo docker build -t ditnetapp
+sudo docker run -d -p 80:80 dotnetapp
